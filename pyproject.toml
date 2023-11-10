@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "PySvelte"
+version = "1.0.0"
+description = "A library for visualizing and interpreting model activations within a Jupyter Notebook"
+license = "LICENSE"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+einops = "^0.3"
+numpy = "^1.18"
+torch = "^1.0"
+datasets = "^1.0"
+transformers = "^3.0"
+tqdm = "^4.0"
+pandas = "^1.0"
+typeguard = "^2.0"
+
+[tool.poetry.scripts]
+
+[tool.poetry.extras]
+
+[tool.poetry.dev-dependencies]
